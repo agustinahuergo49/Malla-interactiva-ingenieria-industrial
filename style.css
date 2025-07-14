@@ -24,3 +24,20 @@ body {
   stroke: #999;
   stroke-opacity: 0.6;
 }
+const link = svg.append("g")
+  .attr("stroke", "#999")
+  .attr("stroke-opacity", 0.6)
+  .selectAll("line")
+  .data(links)
+  .join("line")
+  .attr("class", "link") // 👉 AÑADIR clase CSS
+  .attr("stroke-width", 2);
+
+const node = svg.append("g")
+  .attr("stroke", "#fff")
+  .attr("stroke-width", 1.5)
+  .selectAll("g")
+  .data(nodes)
+  .join("g")
+  .attr("class", "node") // 👉 AÑADIR clase CSS
+  .call(drag(simulation));
