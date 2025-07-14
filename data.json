@@ -1,0 +1,110 @@
+{
+  "materias": [
+    {
+      "codigo": "0901",
+      "nombre": "INGLES NIVEL I",
+      "correlativas": []
+    },
+    {
+      "codigo": "0902",
+      "nombre": "INGLES NIVEL II",
+      "correlativas": ["0901"]
+    },
+    {
+      "codigo": "0903",
+      "nombre": "INGLES NIVEL III",
+      "correlativas": ["0902"]
+    },
+    {
+      "codigo": "0904",
+      "nombre": "INGLES NIVEL IV",
+      "correlativas": ["0903"]
+    },
+    {
+      "codigo": "0911",
+      "nombre": "COMPUTACION NIVEL I",
+      "correlativas": []
+    },
+    {
+      "codigo": "0912",
+      "nombre": "COMPUTACION NIVEL II",
+      "correlativas": ["0911"]
+    },
+    {
+      "codigo": "4052",
+      "nombre": "ANALISIS MATEMATICO I",
+      "correlativas": []
+    },
+    {
+      "codigo": "4053",
+      "nombre": "INFRAESTRUCTURA TECNOLOGICA",
+      "correlativas": []
+    },
+    {
+      "codigo": "4054",
+      "nombre": "ALGEBRA Y GEOMETRIA ANALITICA I",
+      "correlativas": []
+    },
+    {
+      "codigo": "4055",
+      "nombre": "FISICA I",
+      "correlativas": []
+    },
+    {
+      "codigo": "4056",
+      "nombre": "SISTEMA DE REPRESENTACION",
+      "correlativas": []
+    },
+    {
+      "codigo": "4057",
+      "nombre": "INTRODUCCION AL EJERCICIO PROFESIONAL",
+      "correlativas": []
+    },
+    {
+      "codigo": "4058",
+      "nombre": "ELEMENTOS DE ECONOMIA",
+      "correlativas": ["4052"]
+    },
+    {
+      "codigo": "4059",
+      "nombre": "ANALISIS MATEMATICO II",
+      "correlativas": ["4052"]
+    },
+    {
+      "codigo": "4060",
+      "nombre": "FISICA II",
+      "correlativas": ["4055"]
+    },
+    {
+      "codigo": "4061",
+      "nombre": "FUNDAMENTOS DE QUIMICA",
+      "correlativas": []
+    },
+    {
+      "codigo": "4062",
+      "nombre": "ALGEBRA Y GEOMETRIA ANALITICA II",
+      "correlativas": ["4054"]
+    },
+    {
+      "codigo": "4063",
+      "nombre": "ORGANIZACION INDUSTRIAL I",
+      "correlativas": ["4057"]
+    },
+    {
+      "codigo": "4064",
+      "nombre": "COSTOS INDUSTRIALES",
+      "correlativas": ["4058", "4063"]
+    },
+    {
+      "codigo": "4065",
+      "nombre": "ANALISIS MATEMATICO III",
+      "correlativas": ["4059"]
+    },
+    {
+      "codigo": "4066",
+      "nombre": "ETICA PROFESIONAL Y LEGISLACION",
+      "correlativas": ["4057"]
+    }
+    
+  ]
+}
